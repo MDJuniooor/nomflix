@@ -1,6 +1,9 @@
 {
-    "presets": ["@babel/preset-env"],
+    "presets": [
+        "@babel/preset-env"
+    ],
     "plugins": [
-        "@babel/preset-env","babel-plugin-transform-runtime"
+        "transform-async-to-generator",
+        "transform-regenerator"
     ]
 }
